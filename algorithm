@@ -1,3 +1,4 @@
+Linked Requirement (Task 1b): FR-1 – Health Risk Prediction
 Algorithm: PredictHealthRisk
 
 Input: age, BMI, bloodPressure, glucose
@@ -7,7 +8,7 @@ Output: riskLevel
 
 2. WHILE valid = false DO
 3.     Read age, BMI, bloodPressure, glucose
-4.     IF (age > 0) AND (BMI > 0) AND (bloodPressure > 0) AND (glucose > 0) THEN
+4.     IF (age > 0) AND (BMI > 0) AND (bloodPressure > 0) AND (glucose > 0) THEN 
 5.         valid ← true
 6.     ELSE
 7.         Display "Invalid input. Please enter positive values."
