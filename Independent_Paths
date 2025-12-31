@@ -1,0 +1,9 @@
+1. Invalid input → repeat loop → valid input → glucose < 100 → riskLevel = Low
+
+2. Valid input → glucose < 100 → riskLevel = Low
+
+3. Valid input → glucose between 100 and 125 → riskLevel = Medium
+
+4. Valid input → glucose ≥ 126 → riskLevel = High
+
+5. Invalid input once → valid input → glucose ≥ 126 → riskLevel = High
