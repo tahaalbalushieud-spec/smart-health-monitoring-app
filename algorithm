@@ -1,0 +1,27 @@
+Algorithm: PredictHealthRisk
+
+Input: age, BMI, bloodPressure, glucose
+Output: riskLevel
+
+1. valid ← false
+
+2. WHILE valid = false DO
+3.     Read age, BMI, bloodPressure, glucose
+4.     IF (age > 0) AND (BMI > 0) AND (bloodPressure > 0) AND (glucose > 0) THEN
+5.         valid ← true
+6.     ELSE
+7.         Display "Invalid input. Please enter positive values."
+8.     END IF
+9. END WHILE
+
+10. IF glucose ≥ 126 THEN
+11.     riskLevel ← "High"
+12. ELSE IF glucose ≥ 100 THEN
+13.     riskLevel ← "Medium"
+14. ELSE
+15.     riskLevel ← "Low"
+16. END IF
+
+17. Display riskLevel
+
+END Algorithm
